@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
+    @include('inc.navbar')
+    @include('inc.messages')
     <div class="container">
         @yield('content')
     </div>
